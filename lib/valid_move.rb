@@ -12,7 +12,7 @@ end
 
 
 def valid_move?(board, index)
-  if position_taken == false
+  if position_taken?(array, index) == false
     return true
   else
     return false
